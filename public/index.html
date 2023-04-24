@@ -1,9 +1,5 @@
+<!DOCTYPE html>
 <html lang="en">
-<link type="text/css" rel="stylesheet" id="dark-mode-custom-link" />
-<link type="text/css" rel="stylesheet" id="dark-mode-general-link" />
-<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
-<style lang="en" type="text/css" id="dark-mode-native-style"></style>
-<style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
 
 <head>
 
@@ -22,18 +18,25 @@
       width: 276px !important;
       object-fit: cover !important;
     }
-    .tp-bgimg{
+
+    .tp-bgimg {
       height: 100%;
     }
-    @media (max-width:600px) {
-      .tp-bgimg{
 
-        height:350px;
+    @media (max-width:600px) {
+      .tp-bgimg {
+
+        height: 350px;
       }
     }
   </style>
   <!-- CSS Files
     ================================================== -->
+  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link" />
+  <link type="text/css" rel="stylesheet" id="dark-mode-general-link" />
+  <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+  <style lang="en" type="text/css" id="dark-mode-native-style"></style>
+  <style lang="en" type="text/css" id="dark-mode-native-sheet"></style>
   <link href="./files/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
   <link href="./files/bootstrap-grid.min.css" rel="stylesheet" type="text/css" id="bootstrap-grid" />
   <link href="./files/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" id="bootstrap-reboot" />
@@ -104,9 +107,9 @@
               <li>
                 <a href="#section-speakers">Team<span></span></a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#section-sponsors">Sponsors<span></span></a>
-              </li>
+              </li> -->
               <li>
                 <a href="./files/INNOVATE-A-THON Brochure.pdf" target="_blank">Brochure<span></span></a>
               </li>
@@ -134,7 +137,7 @@
             background-size: cover;
           ">
         <section id="section-hero" class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#101010"
-        style="
+          style="
             background-color: rgb(16, 16, 16);
             margin-top: 0px;
             margin-bottom: 0px;
@@ -147,7 +150,7 @@
 
 
 
-        <div class="tp-bgimg " style="
+          <div class="tp-bgimg " style="
           background-color: rgba(0, 0, 0, 0);
           background-repeat: no-repeat;
           background-image: url('images/slider/wide2.png');
@@ -163,42 +166,45 @@
 
 
 
-          <div style="position: absolute; bottom: 0; width: 100%;" >
-            <div class="text-center mb-5">
-              <div class="bar2" style="background-size: cover">
-                <div class="type-wrap" style="background-size: cover">
-                  <span id="typed" style="white-space: pre" class="typed"></span>
+            <div style="position: absolute; bottom: 0; width: 100%;">
+              <div class="text-center mb-5">
+                <div class="bar2" style="background-size: cover">
+                  <div class="type-wrap" style="background-size: cover">
+                    <span id="typed" style="white-space: pre" class="typed"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-lg-flex justify-content-center mb-5 text-center d-none d-lg-block"
+                style="background-size: cover">
+                <div class="h6 padding10 pt0 pb0 text-white" style="background-size: cover">
+                  <i class="i_h3 fa fa-calendar-check-o id-color"></i>May 10th
+                </div>
+                <div class="h6 padding10 pt0 pb0" style="background-size: cover">
+                  <a href="#section-ticket"><img src="./images/icons/cat.png" height="20px" width="20px"
+                      style="margin-right: 10px;">2 Categories</a>
+                </div>
+                <div class="h6 padding10 pt0 pb0" style="background-size: cover">
+                  <a href="#section-ticket"><img src="./images/icons/prob.png" height="20px" width="20px"
+                      style="margin-right: 10px;">3 Problem Statements</a>
+                </div>
+                <div class="h6 padding10 pt0 pb0 text-white" style="background-size: cover">
+                  <i class="i_h3 fa fa-map-marker id-color"></i>UIET, Kurukshetra University
+                </div>
+                <div class="h6 padding10 pt0 pb0 text-white">
+                  <a href="apply.html"
+                    style="background-color: red;   color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
                 </div>
               </div>
             </div>
-
-            <div class="d-lg-flex justify-content-center mb-5 text-center d-none d-lg-block" style="background-size: cover">
-              <div class="h6 padding10 pt0 pb0 text-white" style="background-size: cover">
-                <i class="i_h3 fa fa-calendar-check-o id-color"></i>May 10th
-              </div>
-              <div class="h6 padding10 pt0 pb0" style="background-size: cover">
-                <a href="#section-ticket"><img src="./images/icons/cat.png" height="20px" width="20px"
-                    style="margin-right: 10px;">2 Categories</a>
-              </div>
-              <div class="h6 padding10 pt0 pb0" style="background-size: cover">
-                <a href="#section-ticket"><img src="./images/icons/prob.png" height="20px" width="20px"
-                    style="margin-right: 10px;">3 Problem Statements</a>
-              </div>
-              <div class="h6 padding10 pt0 pb0 text-white" style="background-size: cover">
-                <i class="i_h3 fa fa-map-marker id-color"></i>UIET, Kurukshetra University
-              </div>
-              <div class="h6 padding10 pt0 pb0 text-white">
-                <a href="apply.html" style="background-color: red;   color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
-              </div>
-            </div>
           </div>
+
+
+        </section>
+        <div class="tp-fullwidth-forcer d-none d-lg-block" style="width: 100%; height: 40vmax; background-size: cover">
         </div>
-
-
-      </section>
-        <div class="tp-fullwidth-forcer d-none d-lg-block" style="width: 100%; height: 40vmax; background-size: cover"></div>
         <div class="tp-fullwidth-forcer d-block d-lg-none" style="width: 100%; height: 70vmax; background-size: cover">
-       
+
           <div style="position: absolute; bottom: 0; width: 100%; left:20">
             <div class="d-lg-flex justify-content-center mb-5" style="background-size: cover">
               <div class="h6 padding10 pt0 pb0 text-white" style="background-size: cover">
@@ -216,7 +222,8 @@
                 <i class="i_h3 fa fa-map-marker id-color"></i>UIET, Kurukshetra University
               </div>
               <div class="h6 padding10 pt0 pb0 text-white  mt-4">
-                <a href="apply.html" style="background-color: red;   color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
+                <a href="apply.html"
+                  style="background-color: red;   color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
               </div>
             </div>
           </div>
@@ -298,8 +305,8 @@
                       opacity: 500;
                       object-fit: cover;
                     " />
-                <img class="di-big img-fluid wow fadeInRight animated" data-wow-delay=".25s" src="./files/college.png" alt=""
-                  style="
+                <img class="di-big img-fluid wow fadeInRight animated" data-wow-delay=".25s" src="./files/college.png"
+                  alt="" style="
                       visibility: visible;
                       animation-delay: 0.25s;
                       animation-name: fadeInRight;
@@ -1506,22 +1513,22 @@
               <a href="https://polygon.technology/" target="_blank">
                 <img src="./files/g3.png" alt="POLYGON LOGO" class="grey-hover" /></a>  
                <img src="images/logo/4b.png" alt="" class="grey-hover" /> -->
-              <!--               <div class="spacer-double"></div>
+      <!--               <div class="spacer-double"></div>
 
               <h3>Silver Sponsors</h3>
               <div class="spacer-single"></div>
                -->
 
-              <!-- <div class="spacer-double" style="background-size: cover"></div>
+      <!-- <div class="spacer-double" style="background-size: cover"></div>
 
               <h3>Silver Sponsors</h3>
               <div class="spacer-single" style="background-size: cover"></div> -->
-              <!--               <img src="./images/logo/b1.png" alt="" class="grey-hover" />&emsp;&emsp;
+      <!--               <img src="./images/logo/b1.png" alt="" class="grey-hover" />&emsp;&emsp;
               <img src="./images/logo/b2.png" alt="" class="grey-hover" />&emsp;&emsp;
               <img src="./images/logo/b3.png" alt="" class="grey-hover" />&emsp;&emsp;
               <img src="images/logo/8b.png" alt="" class="grey-hover" /> -->
 
-              <!-- <a href="https://replit.com/" target="_blank"> 
+      <!-- <a href="https://replit.com/" target="_blank"> 
                 <img src="./files/s4.png" "="" alt=" REPLIT LOGO" class="grey-hover"></a>  
               <a href="https://filecoin.io/" target="_blank">
                 <img src="./files/s2.png" alt="FILECOIN LOGO" class="grey-hover" /></a>  
@@ -1561,7 +1568,9 @@
                     <div class="owl-item cloned" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Exceeded my expectations!</span> -->
-                        Organizing this hackathon has been a lot of fun and I sure hope the participants will be able to say the same, can't wait to see the innovative ideas and solutions that the participants will come up with. Looking Forward to the participants' energy and enthusiasm to drive us forward.
+                        Organizing this hackathon has been a lot of fun and I sure hope the participants will be able to
+                        say the same, can't wait to see the innovative ideas and solutions that the participants will
+                        come up with. Looking Forward to the participants' energy and enthusiasm to drive us forward.
 
                         <span class="name">Himani Hooda, Lead Organizer</span>
                       </blockquote>
@@ -1569,7 +1578,9 @@
                     <div class="owl-item cloned" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Life Changing Experience!</span> -->
-                        As organizers,we're looking forward to bringing together students from different backgrounds and skill sets to work on real-world problems. The collaboration and teamwork that will happen at this event will lead to some truly impressive outcomes.
+                        As organizers,we're looking forward to bringing together students from different backgrounds and
+                        skill sets to work on real-world problems. The collaboration and teamwork that will happen at
+                        this event will lead to some truly impressive outcomes.
 
 
                         <span class="name">Ayush Raj, Lead Organizer
@@ -1579,7 +1590,10 @@
                     <div class="owl-item active" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Unique Opportunity!</span> -->
-                        As the organizers, we're excited to provide a platform for you to showcase your coding skills and teamwork abilities. Join us for a chance to gain real-world experience and put your innovations to the test. We believe this event is a great mixture of smart work and hard work and we hope you'll agree!
+                        As the organizers, we're excited to provide a platform for you to showcase your coding skills
+                        and teamwork abilities. Join us for a chance to gain real-world experience and put your
+                        innovations to the test. We believe this event is a great mixture of smart work and hard work
+                        and we hope you'll agree!
 
                         <span class="name">Umakshi, Content Writer</span>
                       </blockquote>
@@ -1587,7 +1601,9 @@
                     <div class="owl-item" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Exceeded my expectations!</span> -->
-                        I'm honored to be a part of the organizing committee for this hackathon and can't wait to see the creativity and innovation that the participants will bring to the table. Wishing all the participants the very best of luck!!
+                        I'm honored to be a part of the organizing committee for this hackathon and can't wait to see
+                        the creativity and innovation that the participants will bring to the table. Wishing all the
+                        participants the very best of luck!!
 
 
                         <span class="name">Tanishq Garg, Content Writer</span>
@@ -1596,7 +1612,8 @@
                     <div class="owl-item cloned" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Unique Opportunity!</span> -->
-                        The hackathon is shaping up to be an amazing experience! I'm confident that this event will be a catalyst for new ideas and solutions.
+                        The hackathon is shaping up to be an amazing experience! I'm confident that this event will be a
+                        catalyst for new ideas and solutions.
 
                         <span class="name">Gajender Yadav, Web Developer</span>
                       </blockquote>
@@ -1604,7 +1621,8 @@
                     <div class="owl-item cloned" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Exceeded my expectations!</span> -->
-                        I believe this hackathon will be a game changer for the upcoming events. I hope everyone gets to be a part of it and put themselves to the challenge of solving problems!
+                        I believe this hackathon will be a game changer for the upcoming events. I hope everyone gets to
+                        be a part of it and put themselves to the challenge of solving problems!
 
                         <span class="name">Arjav Verma, Promotions</span>
                       </blockquote>
@@ -1612,7 +1630,9 @@
                     <div class="owl-item cloned" style="width: 856px; background-size: cover">
                       <blockquote class="testimonial-big">
                         <!-- <span class="title">Exceeded my expectations!</span> -->
-                        व्यवहारिक समस्या समाधान प्रतिस्पर्धाओं से यूनिवर्सिटी इंस्टीट्यूट ऑफ इंजीनियरिंग एंड टेक्नोलॉजी(UIET), कुरुक्षेत्र विश्वविद्यालय में एक जीवंत वातावरण संरचित हो रहा है, जो युवाओं की कार्यनिर्वाह क्षमता को  उँचाइयों तक पहुँचाएगा ।
+                        व्यवहारिक समस्या समाधान प्रतिस्पर्धाओं से यूनिवर्सिटी इंस्टीट्यूट ऑफ इंजीनियरिंग एंड
+                        टेक्नोलॉजी(UIET), कुरुक्षेत्र विश्वविद्यालय में एक जीवंत वातावरण संरचित हो रहा है, जो युवाओं की
+                        कार्यनिर्वाह क्षमता को उँचाइयों तक पहुँचाएगा ।
                         <span class="name">Yash Pal Goyal, Content Writer</span>
                       </blockquote>
                     </div>
@@ -1625,9 +1645,9 @@
                     <span aria-label="Next">›</span>
                   </button>
                 </div>
+              </div>
             </div>
           </div>
-        </div>
       </section>
       <!-- section close -->
 
@@ -1887,7 +1907,8 @@
             </div>
 
             <div class="col-lg-4 col-md-5 text-right" style="background-size: cover">
-              <a href="apply.html" style="background-color: red;   color: white; padding: 20px 40px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
+              <a href="apply.html"
+                style="background-color: red;   color: white; padding: 20px 40px; border: none; border-radius: 4px; cursor: pointer;">Apply</a>
 
               <!-- <a href="#section-ticket" class="btn-custom text-white scroll-to">Register Now</a> -->
               <!-- <div class="apply-button" data-hackathon-slug="innovateathon" data-button-theme="light"
@@ -1993,7 +2014,7 @@
 
           <div class="p-4 border" style="background-size: cover">
             <div class="text-center" style="background-size: cover">
-              <h2>20,000+</h2>
+              <h2>15000+</h2>
               <p>UIET KUK ALUMNI</p>
             </div>
           </div>
